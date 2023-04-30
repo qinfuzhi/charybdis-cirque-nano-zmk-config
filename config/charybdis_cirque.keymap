@@ -98,59 +98,39 @@ modcp: mod_copy {
     
      combos {
         compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <2 38>;
-            bindings = <&kp TAB>;
-        };
-             combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <3 38>;
-            bindings = <&kp CAPS>;
-        };
-        
-         combo_LSHFT {
-            timeout-ms = <50>;
-            key-positions = <14 38>;
-            bindings = <&kp  LSHFT>;
-        };
+
        
          combo_2 {
             timeout-ms = <50>;
-            key-positions = <15 38>;
+            key-positions = <43 82>;
             bindings = <&kp N2 >;
         };
          combo_3 {
             timeout-ms = <50>;
-            key-positions = <16 38>;
+            key-positions = <44 82>;
             bindings = <&kp N3>;
         };
             combo_LGUI {
             timeout-ms = <50>;
-            key-positions = <26 38>;
-            bindings = <&kp LGUI>;
+            key-positions = <45 82>;
+            bindings = <&kp N4>;
         };
               combo_GUI {
             timeout-ms = <50>;
-            key-positions = <27 38>;
-            bindings = <&tog 1>;
+            key-positions = <62 82>;
+            bindings = <&kp LGUI>;
         };
                   combo_G {
             timeout-ms = <50>;
-            key-positions = <14 39>;
-            bindings = <&mo 4>;
+            key-positions = <63 39>;
+            bindings = <&tog 1>;
         };
                   combo_GU {
             timeout-ms = <50>;
-            key-positions = <14 39>;
-            bindings = <&mo 2>;
+            key-positions = <64 39>;
+            bindings = <&mo 3>;
         };
-                      combo_m {
-            timeout-ms = <50>;
-            key-positions = <21 41>;
-            bindings = <&mo 4>;
-        };
-        
+             
   
    };
 
