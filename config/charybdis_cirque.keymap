@@ -122,12 +122,12 @@ modcp: mod_copy {
         };
                   combo_G {
             timeout-ms = <50>;
-            key-positions = <63 39>;
+            key-positions = <63 82>;
             bindings = <&tog 1>;
         };
                   combo_GU {
             timeout-ms = <50>;
-            key-positions = <64 39>;
+            key-positions = <64 82>;
             bindings = <&mo 3>;
         };
              
